@@ -66,14 +66,20 @@ body {
     color: black !important;
 }
 
+
 .results {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     font-weight: bold;
 }
 
 .result-section {
-    min-width: 250px;
+    flex: 1;
+    padding: 15px;
+}
+
+.result-section>div {
+    padding-bottom: 10px;
 }
 
 .result-entry {
