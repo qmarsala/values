@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#current-value {
+    padding-bottom: 20px;
+}
+
+.value-card {
+    margin: 10px;
+    background-color: #F5F5F5;
+    box-shadow: black 1px 1px 8px;
+    min-height: 175px;
+    min-width: 400px;
+    text-align: center;
+}
+
+.value-title {
+    font-weight: bold;
+    font-size: 24px;
+    padding-top: 15px;
+}
+
+.value-description {
+    font-size: 16px;
+    height: 50px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
+.value-classification {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+.value-classification>button {
+    float: left;
+    margin: 0 10px;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border-style: none;
+    text-align: center;
+    color: white;
+}
+
+.value-classification>button:hover {
+    border-style: solid;
+    border-color: black;
+}
+
+.value-most-important {
+    background-color: #008000;
+}
+
+.value-important {
+    background-color: #4169E1;
+}
+
+.value-not-important {
+    background-color: #F5F5F5;
+    border-style: solid !important;
+    border-color: lightgrey;
+    color: black !important;
+}
+
+.results {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.result-section {
+    min-width: 250px;
+}
+
+.result-entry {
+    padding: 3px;
+    font-weight: normal;
+}
